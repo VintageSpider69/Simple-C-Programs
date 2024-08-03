@@ -1,3 +1,4 @@
+//Program to perform linear search on an array of numbers
 #include <stdio.h>
 int main()
 {
