@@ -49,9 +49,9 @@ void main()
         }
     }
     printf("The sparse matrix is : \n");
-    for(i=0;i<count + 1;i++)
+    for(i=0;i<count + 1;i++) //The reason for count + 1 is that the sparse matrix has count rows for non-zero elements plus 1 row for metadata.
     {
-        for(j=0;j<3;j++)
+        for(j=0;j<3;j++) //The loop runs from j = 0 to j < 3. The sparse matrix has 3 columns
         {
             printf("%d",sparsematrix[i][j]);
             printf("\t");
